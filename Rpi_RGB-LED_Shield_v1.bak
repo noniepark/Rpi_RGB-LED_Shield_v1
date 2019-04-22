@@ -1,0 +1,249 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 5CBD6F1F
+P 3350 2750
+F 0 "J?" H 3400 3867 50  0000 C CNN
+F 1 "RapberryPi_Conn" H 3400 3776 50  0000 C CNN
+F 2 "GiraffeTech-RaspberryPi:RPi_Hat" H 3350 2750 50  0001 C CNN
+F 3 "~" H 3350 2750 50  0001 C CNN
+	1    3350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 5CBD6FC7
+P 3350 5050
+F 0 "J?" H 3400 6167 50  0000 C CNN
+F 1 "ExpansionBoard_Conn" H 3400 6076 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 3350 5050 50  0001 C CNN
+F 3 "~" H 3350 5050 50  0001 C CNN
+	1    3350 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5CBD746B
+P 3850 1750
+F 0 "#PWR?" H 3850 1600 50  0001 C CNN
+F 1 "VCC" H 3867 1923 50  0000 C CNN
+F 2 "" H 3850 1750 50  0001 C CNN
+F 3 "" H 3850 1750 50  0001 C CNN
+	1    3850 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1850 3850 1850
+Wire Wire Line
+	3850 1850 3850 1750
+Wire Wire Line
+	3650 1950 3850 1950
+Wire Wire Line
+	3850 1950 3850 1850
+Connection ~ 3850 1850
+$Comp
+L power:GND #PWR?
+U 1 1 5CBD7553
+P 3850 2050
+F 0 "#PWR?" H 3850 1800 50  0001 C CNN
+F 1 "GND" V 3855 1922 50  0000 R CNN
+F 2 "" H 3850 2050 50  0001 C CNN
+F 3 "" H 3850 2050 50  0001 C CNN
+	1    3850 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 2050 3850 2050
+$Comp
+L power:GND #PWR?
+U 1 1 5CBD757C
+P 2950 2250
+F 0 "#PWR?" H 2950 2000 50  0001 C CNN
+F 1 "GND" V 2955 2122 50  0000 R CNN
+F 2 "" H 2950 2250 50  0001 C CNN
+F 3 "" H 2950 2250 50  0001 C CNN
+	1    2950 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 2250 3150 2250
+$Comp
+L power:GND #PWR?
+U 1 1 5CBD76D6
+P 3850 2750
+F 0 "#PWR?" H 3850 2500 50  0001 C CNN
+F 1 "GND" V 3855 2622 50  0000 R CNN
+F 2 "" H 3850 2750 50  0001 C CNN
+F 3 "" H 3850 2750 50  0001 C CNN
+	1    3850 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 2750 3850 2750
+$Comp
+L power:GND #PWR?
+U 1 1 5CBD7746
+P 2950 3050
+F 0 "#PWR?" H 2950 2800 50  0001 C CNN
+F 1 "GND" V 2955 2922 50  0000 R CNN
+F 2 "" H 2950 3050 50  0001 C CNN
+F 3 "" H 2950 3050 50  0001 C CNN
+	1    2950 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 3050 3150 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5CBD7819
+P 3850 3250
+F 0 "#PWR?" H 3850 3000 50  0001 C CNN
+F 1 "GND" V 3855 3122 50  0000 R CNN
+F 2 "" H 3850 3250 50  0001 C CNN
+F 3 "" H 3850 3250 50  0001 C CNN
+	1    3850 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 3250 3850 3250
+$Comp
+L power:GND #PWR?
+U 1 1 5CBD78A4
+P 3850 3450
+F 0 "#PWR?" H 3850 3200 50  0001 C CNN
+F 1 "GND" V 3855 3322 50  0000 R CNN
+F 2 "" H 3850 3450 50  0001 C CNN
+F 3 "" H 3850 3450 50  0001 C CNN
+	1    3850 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CBD78B3
+P 2950 3750
+F 0 "#PWR?" H 2950 3500 50  0001 C CNN
+F 1 "GND" V 2955 3622 50  0000 R CNN
+F 2 "" H 2950 3750 50  0001 C CNN
+F 3 "" H 2950 3750 50  0001 C CNN
+	1    2950 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 3750 3150 3750
+Wire Wire Line
+	3650 3450 3850 3450
+Text GLabel 2950 1950 0    50   Input ~ 0
+SDA
+Text GLabel 2950 2050 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	2950 1950 3150 1950
+Wire Wire Line
+	2950 2050 3150 2050
+Text GLabel 3850 2150 2    50   Input ~ 0
+TxD
+Text GLabel 3850 2250 2    50   Input ~ 0
+RxD
+Wire Wire Line
+	3650 2150 3850 2150
+Wire Wire Line
+	3650 2250 3850 2250
+Text GLabel 2950 2750 0    50   Input ~ 0
+MOSI_0
+Text GLabel 2950 2850 0    50   Input ~ 0
+MISO_0
+Text GLabel 2950 2950 0    50   Input ~ 0
+SCK_0
+Wire Wire Line
+	2950 2750 3150 2750
+Wire Wire Line
+	2950 2850 3150 2850
+Wire Wire Line
+	2950 2950 3150 2950
+Text GLabel 2950 3550 0    50   Input ~ 0
+MISO_1
+Text GLabel 3850 3650 2    50   Input ~ 0
+MOSI_1
+Text GLabel 3850 3750 2    50   Input ~ 0
+SCK_1
+Wire Wire Line
+	3650 3650 3850 3650
+Wire Wire Line
+	3650 3750 3850 3750
+Wire Wire Line
+	2950 3550 3150 3550
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CBD8CCF
+P 2950 1750
+F 0 "#PWR?" H 2950 1600 50  0001 C CNN
+F 1 "+3.3V" H 2965 1923 50  0000 C CNN
+F 2 "" H 2950 1750 50  0001 C CNN
+F 3 "" H 2950 1750 50  0001 C CNN
+	1    2950 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1750 2950 1850
+Wire Wire Line
+	2950 1850 3150 1850
+$Comp
+L InGarage_Logic_LevelTranslator:SN74LV4T125 U?
+U 1 1 5CBDA775
+P 6400 2600
+F 0 "U?" H 6150 3150 50  0000 C CNN
+F 1 "SN74LV4T125" H 6700 3150 50  0000 C CNN
+F 2 "" H 6350 2200 50  0001 C CNN
+F 3 "" H 6350 2200 50  0001 C CNN
+	1    6400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CBDA92D
+P 6400 3300
+F 0 "#PWR?" H 6400 3050 50  0001 C CNN
+F 1 "GND" H 6405 3127 50  0000 C CNN
+F 2 "" H 6400 3300 50  0001 C CNN
+F 3 "" H 6400 3300 50  0001 C CNN
+	1    6400 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3200 6400 3300
+$Comp
+L power:VCC #PWR?
+U 1 1 5CBDADAB
+P 6400 1900
+F 0 "#PWR?" H 6400 1750 50  0001 C CNN
+F 1 "VCC" H 6417 2073 50  0000 C CNN
+F 2 "" H 6400 1900 50  0001 C CNN
+F 3 "" H 6400 1900 50  0001 C CNN
+	1    6400 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1900 6400 2000
+Text GLabel 5900 2200 0    50   Input ~ 0
+SDA
+Text GLabel 5900 2300 0    50   Input ~ 0
+SCL
+Text GLabel 5900 2400 0    50   Input ~ 0
+SDA
+Text GLabel 5900 2500 0    50   Input ~ 0
+SCL
+$EndSCHEMATC
