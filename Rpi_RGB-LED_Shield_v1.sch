@@ -253,46 +253,10 @@ Text GLabel 7300 1300 0    50   Input ~ 0
 MOSI
 Text GLabel 7300 1400 0    50   Input ~ 0
 SCK
-Wire Wire Line
-	7300 1300 7400 1300
-Wire Wire Line
-	7300 1400 7350 1400
-Wire Wire Line
-	7400 1300 7400 1500
-Wire Wire Line
-	7400 1500 7500 1500
-Connection ~ 7400 1300
-Wire Wire Line
-	7400 1300 7500 1300
-Wire Wire Line
-	7350 1400 7350 1600
-Wire Wire Line
-	7350 1600 7500 1600
-Connection ~ 7350 1400
-Wire Wire Line
-	7350 1400 7500 1400
-Text GLabel 7400 1800 0    50   Input ~ 0
+Text GLabel 7300 1800 0    50   Input ~ 0
 SEL_0
-Text GLabel 7400 2000 0    50   Input ~ 0
+Text GLabel 7300 2000 0    50   Input ~ 0
 SEL_1
-Wire Wire Line
-	7450 2000 7450 2100
-Wire Wire Line
-	7450 2100 7500 2100
-Wire Wire Line
-	7450 2000 7500 2000
-Wire Wire Line
-	7400 2000 7450 2000
-Connection ~ 7450 2000
-Wire Wire Line
-	7400 1800 7450 1800
-Wire Wire Line
-	7450 1800 7450 1900
-Wire Wire Line
-	7450 1900 7500 1900
-Connection ~ 7450 1800
-Wire Wire Line
-	7450 1800 7500 1800
 $Comp
 L InGarage_Logic_LevelTranslator:SN74LV4T125 U2
 U 1 1 5CBFDB73
@@ -350,46 +314,10 @@ Text GLabel 9150 1300 0    50   Input ~ 0
 MOSI
 Text GLabel 9150 1400 0    50   Input ~ 0
 SCK
-Wire Wire Line
-	9150 1300 9250 1300
-Wire Wire Line
-	9150 1400 9200 1400
-Wire Wire Line
-	9250 1300 9250 1500
-Wire Wire Line
-	9250 1500 9350 1500
-Connection ~ 9250 1300
-Wire Wire Line
-	9250 1300 9350 1300
-Wire Wire Line
-	9200 1400 9200 1600
-Wire Wire Line
-	9200 1600 9350 1600
-Connection ~ 9200 1400
-Wire Wire Line
-	9200 1400 9350 1400
-Text GLabel 9250 1800 0    50   Input ~ 0
+Text GLabel 9150 1800 0    50   Input ~ 0
 SEL_2
-Text GLabel 9250 2000 0    50   Input ~ 0
+Text GLabel 9150 2000 0    50   Input ~ 0
 SEL_3
-Wire Wire Line
-	9300 2000 9300 2100
-Wire Wire Line
-	9300 2100 9350 2100
-Wire Wire Line
-	9300 2000 9350 2000
-Wire Wire Line
-	9250 2000 9300 2000
-Connection ~ 9300 2000
-Wire Wire Line
-	9250 1800 9300 1800
-Wire Wire Line
-	9300 1800 9300 1900
-Wire Wire Line
-	9300 1900 9350 1900
-Connection ~ 9300 1800
-Wire Wire Line
-	9300 1800 9350 1800
 $Comp
 L InGarage_Logic_LevelTranslator:SN74LV4T125 U3
 U 1 1 5CBFEF91
@@ -447,46 +375,10 @@ Text GLabel 7300 3250 0    50   Input ~ 0
 MOSI
 Text GLabel 7300 3350 0    50   Input ~ 0
 SCK
-Wire Wire Line
-	7300 3250 7400 3250
-Wire Wire Line
-	7300 3350 7350 3350
-Wire Wire Line
-	7400 3250 7400 3450
-Wire Wire Line
-	7400 3450 7500 3450
-Connection ~ 7400 3250
-Wire Wire Line
-	7400 3250 7500 3250
-Wire Wire Line
-	7350 3350 7350 3550
-Wire Wire Line
-	7350 3550 7500 3550
-Connection ~ 7350 3350
-Wire Wire Line
-	7350 3350 7500 3350
-Text GLabel 7400 3750 0    50   Input ~ 0
+Text GLabel 7300 3750 0    50   Input ~ 0
 SEL_4
-Text GLabel 7400 3950 0    50   Input ~ 0
+Text GLabel 7300 3950 0    50   Input ~ 0
 SEL_5
-Wire Wire Line
-	7450 3950 7450 4050
-Wire Wire Line
-	7450 4050 7500 4050
-Wire Wire Line
-	7450 3950 7500 3950
-Wire Wire Line
-	7400 3950 7450 3950
-Connection ~ 7450 3950
-Wire Wire Line
-	7400 3750 7450 3750
-Wire Wire Line
-	7450 3750 7450 3850
-Wire Wire Line
-	7450 3850 7500 3850
-Connection ~ 7450 3750
-Wire Wire Line
-	7450 3750 7500 3750
 $Comp
 L InGarage_Logic_LevelTranslator:SN74LV4T125 U4
 U 1 1 5CC07EDA
@@ -544,46 +436,10 @@ Text GLabel 9150 3250 0    50   Input ~ 0
 MOSI
 Text GLabel 9150 3350 0    50   Input ~ 0
 SCK
-Wire Wire Line
-	9150 3250 9250 3250
-Wire Wire Line
-	9150 3350 9200 3350
-Wire Wire Line
-	9250 3250 9250 3450
-Wire Wire Line
-	9250 3450 9350 3450
-Connection ~ 9250 3250
-Wire Wire Line
-	9250 3250 9350 3250
-Wire Wire Line
-	9200 3350 9200 3550
-Wire Wire Line
-	9200 3550 9350 3550
-Connection ~ 9200 3350
-Wire Wire Line
-	9200 3350 9350 3350
-Text GLabel 9250 3750 0    50   Input ~ 0
+Text GLabel 9150 3750 0    50   Input ~ 0
 SEL_6
-Text GLabel 9250 3950 0    50   Input ~ 0
+Text GLabel 9150 3950 0    50   Input ~ 0
 SEL_7
-Wire Wire Line
-	9300 3950 9300 4050
-Wire Wire Line
-	9300 4050 9350 4050
-Wire Wire Line
-	9300 3950 9350 3950
-Wire Wire Line
-	9250 3950 9300 3950
-Connection ~ 9300 3950
-Wire Wire Line
-	9250 3750 9300 3750
-Wire Wire Line
-	9300 3750 9300 3850
-Wire Wire Line
-	9300 3850 9350 3850
-Connection ~ 9300 3750
-Wire Wire Line
-	9300 3750 9350 3750
 Text GLabel 5950 1650 0    50   Input ~ 0
 SEL_0
 Text GLabel 5950 1950 0    50   Input ~ 0
@@ -1447,53 +1303,6 @@ Text GLabel 2900 3600 2    50   Input ~ 0
 GPIO20
 Text GLabel 2900 3700 2    50   Input ~ 0
 GPIO21
-$Comp
-L Connector_Generic:Conn_01x04 J4
-U 1 1 5CD20790
-P 4100 3350
-F 0 "J4" H 4020 2925 50  0000 C CNN
-F 1 "SerialConsole_Conn" H 4020 3016 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4100 3350 50  0001 C CNN
-F 3 "~" H 4100 3350 50  0001 C CNN
-	1    4100 3350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0154
-U 1 1 5CD3D1D5
-P 4400 3550
-F 0 "#PWR0154" H 4400 3300 50  0001 C CNN
-F 1 "GND" H 4405 3377 50  0000 C CNN
-F 2 "" H 4400 3550 50  0001 C CNN
-F 3 "" H 4400 3550 50  0001 C CNN
-	1    4400 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 3450 4400 3450
-Wire Wire Line
-	4400 3450 4400 3550
-$Comp
-L power:VCC #PWR0155
-U 1 1 5CD46C3E
-P 4400 3350
-F 0 "#PWR0155" H 4400 3200 50  0001 C CNN
-F 1 "VCC" V 4417 3478 50  0000 L CNN
-F 2 "" H 4400 3350 50  0001 C CNN
-F 3 "" H 4400 3350 50  0001 C CNN
-	1    4400 3350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4300 3350 4400 3350
-Text GLabel 4400 3150 2    50   Input ~ 0
-TxD
-Text GLabel 4400 3250 2    50   Input ~ 0
-RxD
-Wire Wire Line
-	4300 3150 4400 3150
-Wire Wire Line
-	4300 3250 4400 3250
 Text GLabel 5950 1550 0    50   Input ~ 0
 GPIO5
 Text GLabel 5950 1850 0    50   Input ~ 0
@@ -1506,8 +1315,6 @@ Text GLabel 5950 2750 0    50   Input ~ 0
 GPIO16
 Text GLabel 5950 3050 0    50   Input ~ 0
 GPIO19
-Text GLabel 5950 3350 0    50   Input ~ 0
-GPIO20
 Text GLabel 5950 3650 0    50   Input ~ 0
 GPIO21
 Wire Wire Line
@@ -1566,17 +1373,17 @@ Wire Wire Line
 Connection ~ 6050 3750
 Wire Wire Line
 	6050 3750 6100 3750
-Text GLabel 2100 4450 0    50   Input ~ 0
+Text GLabel 2800 4450 2    50   Input ~ 0
 MOSI_0
-Text GLabel 2100 4550 0    50   Input ~ 0
+Text GLabel 2800 4550 2    50   Input ~ 0
 SCK_0
-Text GLabel 2100 4650 0    50   Input ~ 0
+Text GLabel 2800 4650 2    50   Input ~ 0
 MOSI_1
-Text GLabel 2100 4750 0    50   Input ~ 0
+Text GLabel 2800 4750 2    50   Input ~ 0
 SCK_1
-Text GLabel 2100 5050 0    50   Input ~ 0
+Text GLabel 2800 5050 2    50   Input ~ 0
 MOSI_3
-Text GLabel 2100 5150 0    50   Input ~ 0
+Text GLabel 2800 5150 2    50   Input ~ 0
 SCK_3
 Text GLabel 2800 5250 2    50   Input ~ 0
 MOSI_4
@@ -1610,25 +1417,9 @@ Wire Wire Line
 	2700 5850 2800 5850
 Wire Wire Line
 	2700 5950 2800 5950
-Wire Wire Line
-	2200 4450 2100 4450
-Wire Wire Line
-	2200 4550 2100 4550
-Wire Wire Line
-	2200 4650 2100 4650
-Wire Wire Line
-	2200 4750 2100 4750
-Wire Wire Line
-	2200 4850 2100 4850
-Wire Wire Line
-	2200 4950 2100 4950
-Wire Wire Line
-	2200 5050 2100 5050
-Wire Wire Line
-	2200 5150 2100 5150
-Text GLabel 2100 4850 0    50   Input ~ 0
+Text GLabel 2800 4850 2    50   Input ~ 0
 MOSI_2
-Text GLabel 2100 4950 0    50   Input ~ 0
+Text GLabel 2800 4950 2    50   Input ~ 0
 SCK_2
 Wire Wire Line
 	1700 4250 2200 4250
@@ -1658,22 +1449,6 @@ Wire Wire Line
 	1700 6150 2200 6150
 Wire Wire Line
 	2700 4350 3200 4350
-Wire Wire Line
-	2700 4450 3200 4450
-Wire Wire Line
-	2700 4550 3200 4550
-Wire Wire Line
-	2700 4650 3200 4650
-Wire Wire Line
-	2700 4750 3200 4750
-Wire Wire Line
-	2700 4850 3200 4850
-Wire Wire Line
-	2700 4950 3200 4950
-Wire Wire Line
-	2700 5050 3200 5050
-Wire Wire Line
-	2700 5150 3200 5150
 Wire Wire Line
 	2700 6050 3200 6050
 Wire Wire Line
@@ -1734,30 +1509,6 @@ Wire Wire Line
 Connection ~ 3200 4250
 Wire Wire Line
 	3200 4250 3200 4350
-Connection ~ 3200 4350
-Wire Wire Line
-	3200 4350 3200 4450
-Connection ~ 3200 4450
-Wire Wire Line
-	3200 4450 3200 4550
-Connection ~ 3200 4550
-Wire Wire Line
-	3200 4550 3200 4650
-Connection ~ 3200 4650
-Wire Wire Line
-	3200 4650 3200 4750
-Connection ~ 3200 4750
-Wire Wire Line
-	3200 4750 3200 4850
-Connection ~ 3200 4850
-Wire Wire Line
-	3200 4850 3200 4950
-Connection ~ 3200 4950
-Wire Wire Line
-	3200 4950 3200 5050
-Connection ~ 3200 5050
-Wire Wire Line
-	3200 5050 3200 5150
 $Comp
 L power:VCC #PWR0158
 U 1 1 5D273E25
@@ -1805,4 +1556,206 @@ NoConn ~ 2700 3100
 NoConn ~ 2200 3100
 Wire Wire Line
 	4800 5100 4900 5100
+Wire Wire Line
+	9150 3250 9250 3250
+Wire Wire Line
+	9250 3250 9250 3450
+Wire Wire Line
+	9250 3450 9350 3450
+Connection ~ 9250 3250
+Wire Wire Line
+	9250 3250 9350 3250
+Wire Wire Line
+	9150 3350 9200 3350
+Wire Wire Line
+	9200 3350 9200 3550
+Wire Wire Line
+	9200 3550 9350 3550
+Connection ~ 9200 3350
+Wire Wire Line
+	9200 3350 9350 3350
+Wire Wire Line
+	9150 3750 9250 3750
+Wire Wire Line
+	9150 3950 9250 3950
+Wire Wire Line
+	9250 3950 9250 4050
+Wire Wire Line
+	9250 4050 9350 4050
+Connection ~ 9250 3950
+Wire Wire Line
+	9250 3950 9350 3950
+Wire Wire Line
+	9250 3750 9250 3850
+Wire Wire Line
+	9250 3850 9350 3850
+Connection ~ 9250 3750
+Wire Wire Line
+	9250 3750 9350 3750
+Wire Wire Line
+	7300 3250 7400 3250
+Wire Wire Line
+	7400 3250 7400 3450
+Wire Wire Line
+	7400 3450 7500 3450
+Connection ~ 7400 3250
+Wire Wire Line
+	7400 3250 7500 3250
+Wire Wire Line
+	7300 3350 7350 3350
+Wire Wire Line
+	7350 3350 7350 3550
+Wire Wire Line
+	7350 3550 7500 3550
+Connection ~ 7350 3350
+Wire Wire Line
+	7350 3350 7500 3350
+Wire Wire Line
+	7300 3750 7400 3750
+Wire Wire Line
+	7300 3950 7400 3950
+Wire Wire Line
+	7400 3750 7400 3850
+Wire Wire Line
+	7400 3850 7500 3850
+Connection ~ 7400 3750
+Wire Wire Line
+	7400 3750 7500 3750
+Wire Wire Line
+	7400 3950 7400 4050
+Wire Wire Line
+	7400 4050 7500 4050
+Connection ~ 7400 3950
+Wire Wire Line
+	7400 3950 7500 3950
+Wire Wire Line
+	9150 1300 9250 1300
+Wire Wire Line
+	9250 1300 9250 1500
+Wire Wire Line
+	9250 1500 9350 1500
+Connection ~ 9250 1300
+Wire Wire Line
+	9250 1300 9350 1300
+Wire Wire Line
+	9150 1400 9200 1400
+Wire Wire Line
+	9200 1400 9200 1600
+Wire Wire Line
+	9200 1600 9350 1600
+Connection ~ 9200 1400
+Wire Wire Line
+	9200 1400 9350 1400
+Wire Wire Line
+	9150 1800 9250 1800
+Wire Wire Line
+	9150 2000 9250 2000
+Wire Wire Line
+	9250 2000 9250 2100
+Wire Wire Line
+	9250 2100 9350 2100
+Connection ~ 9250 2000
+Wire Wire Line
+	9250 2000 9350 2000
+Wire Wire Line
+	9250 1800 9250 1900
+Wire Wire Line
+	9250 1900 9350 1900
+Connection ~ 9250 1800
+Wire Wire Line
+	9250 1800 9350 1800
+Wire Wire Line
+	7300 1800 7400 1800
+Wire Wire Line
+	7300 2000 7400 2000
+Wire Wire Line
+	7400 2000 7400 2100
+Wire Wire Line
+	7400 2100 7500 2100
+Connection ~ 7400 2000
+Wire Wire Line
+	7400 2000 7500 2000
+Wire Wire Line
+	7400 1800 7400 1900
+Wire Wire Line
+	7400 1900 7500 1900
+Connection ~ 7400 1800
+Wire Wire Line
+	7400 1800 7500 1800
+Wire Wire Line
+	7300 1300 7400 1300
+Wire Wire Line
+	7300 1400 7350 1400
+Wire Wire Line
+	7400 1300 7400 1500
+Wire Wire Line
+	7400 1500 7500 1500
+Connection ~ 7400 1300
+Wire Wire Line
+	7400 1300 7500 1300
+Wire Wire Line
+	7350 1400 7350 1600
+Wire Wire Line
+	7350 1600 7500 1600
+Connection ~ 7350 1400
+Wire Wire Line
+	7350 1400 7500 1400
+Text GLabel 5950 3350 0    50   Input ~ 0
+GPIO26
+Wire Wire Line
+	2700 4450 2800 4450
+Wire Wire Line
+	2700 4550 2800 4550
+Wire Wire Line
+	2700 4650 2800 4650
+Wire Wire Line
+	2700 4750 2800 4750
+Wire Wire Line
+	2700 4850 2800 4850
+Wire Wire Line
+	2700 4950 2800 4950
+Wire Wire Line
+	2700 5050 2800 5050
+Wire Wire Line
+	2700 5150 2800 5150
+Wire Wire Line
+	1700 5250 1700 5150
+Wire Wire Line
+	1700 4450 2200 4450
+Connection ~ 1700 5250
+Wire Wire Line
+	1700 4550 2200 4550
+Connection ~ 1700 4550
+Wire Wire Line
+	1700 4550 1700 4450
+Wire Wire Line
+	1700 4650 2200 4650
+Connection ~ 1700 4650
+Wire Wire Line
+	1700 4650 1700 4550
+Wire Wire Line
+	1700 4750 2200 4750
+Connection ~ 1700 4750
+Wire Wire Line
+	1700 4750 1700 4650
+Wire Wire Line
+	1700 4850 2200 4850
+Connection ~ 1700 4850
+Wire Wire Line
+	1700 4850 1700 4750
+Wire Wire Line
+	1700 4950 2200 4950
+Connection ~ 1700 4950
+Wire Wire Line
+	1700 4950 1700 4850
+Wire Wire Line
+	1700 5050 2200 5050
+Connection ~ 1700 5050
+Wire Wire Line
+	1700 5050 1700 4950
+Wire Wire Line
+	1700 5150 2200 5150
+Connection ~ 1700 5150
+Wire Wire Line
+	1700 5150 1700 5050
 $EndSCHEMATC
